@@ -68,7 +68,7 @@
         },
         eraseText: function() {
             var scope = this;
-            deleteInterval = setInterval(this.eraseChar, this.interval, this);
+            deleteInterval = setInterval(this.eraseChar, 100, this);
         },
         eraseChar: function(scope) {
             var $el = scope.element,
