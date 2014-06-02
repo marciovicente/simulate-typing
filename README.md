@@ -16,7 +16,7 @@ You can use just one string:
   });
 ```
 
-or an array of strings:
+or a list of strings:
 
 ```javascript
   $('.my-input').simulateTyping({
